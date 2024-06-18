@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# to execute ./08-conditions.sh 50
+
 NUMBER=$1
 
 if [ $NUMBER -gt 100 ]
