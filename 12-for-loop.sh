@@ -1,12 +1,16 @@
 #/bin/bash
 
+# To Execute ./12-for-loop.sh 50
+
 #Start of for loop
+
+value=$1
 
 for a in 1 2 3 4 5 6 7 8 9 10
 do
 
 # if a is equal to 5 break the loop
-if [ $a == 5 ]
+if [ $a == $value ]
 then
 break
 fi
