@@ -9,7 +9,7 @@ read -r p
 echo -e "Enter Your Chemistry Subject Marks: \c"
 read -r c
 
-if test $m -ge 35 -a $p -ge 35 -a $c -ge 35
+if [[ "$m" -ge 35 && "$p" -ge 35 && "$c" -ge 35 ]]; 
 then
 echo "Congratulations, You have passed in all subjects"
 else
