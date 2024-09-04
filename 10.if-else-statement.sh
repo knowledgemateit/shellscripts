@@ -1,14 +1,12 @@
 #!/bin/bash
-#Purpose: If else statement example
 
-# START #
-echo -e "Enter any value: \c"
-read -r a
-echo -e "Enter any value: \c"
-read -r b
+# to execute ./10.if-else-statement.sh 50
 
-if [ $a -gt $b ]; then
-echo "$a is greater than $b"
+NUMBER=$1
+
+if [ $NUMBER -gt 100 ]
+then
+   echo "Give number $NUMBER is greater than 100"
 else
-echo "$b is greater than $a"
+   echo "Give number $NUMBER is not greater than 100"
 fi
