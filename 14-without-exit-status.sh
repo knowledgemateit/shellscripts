@@ -12,6 +12,6 @@ lsfff
 
 echo "After wrong command"
 
-cd /tmp
+cd /opt
 
-cd /home/centos
+ls -ltr
