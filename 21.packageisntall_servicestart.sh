@@ -9,4 +9,4 @@ service_name=$servicename
 # Restart a specified service
 sleep 5
 sudo systemctl restart $service_name
-echo "Service $service_name restarted."
+echo "Service $service_name restarted"
